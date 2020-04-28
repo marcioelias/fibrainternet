@@ -1,0 +1,57 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    .nav-brand-container {
+        background-color: rgba(0, 0, 0, 0.1);
+        padding-top: 5rem;
+        margin-top: -5rem;
+        padding-bottom: 1rem;
+        padding-left: 0.5rem;
+    }
+    .container a.navbar-brand {
+        display: block;
+        background: url('../assets/img/logo-fribra-internet.png') no-repeat;
+        height: 80px;
+        width: 171px;
+    }
+}
+
+.navbar-scrolled {
+    /* #### Desktops #### */
+    @media screen and (min-width: 1024px){
+        max-height: 80px !important;
+    }
+    .nav-item .nav-link {
+        font-size: unset;
+        color: rgba(255, 255, 255, 0.5) !important;
+    }
+    .nav-brand-container {
+        background-color: unset;
+    }
+}
+
+.navbar-brand-scrolled {
+    /* #### Desktops #### */
+    @media screen and (min-width: 1024px){
+        margin-top: 20px;
+    }
+    height: 55px;
+    background: url('../assets/img/logo-fribra-internet-scrolled.png') no-repeat !important;
+}
+
+.navbar-marketing .navbar-nav .nav-item .nav-link {
+    font-size: larger;
+    color: #333;
+}
+
+.page-header-home {
+    background: url('../assets/img/background-top-01.jpg');
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 18rem;
+    position: relative;
+}
+
+.page-header-thin {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
